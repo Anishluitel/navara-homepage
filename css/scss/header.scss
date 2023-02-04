@@ -1,0 +1,58 @@
+.header-wrapper {
+    width: 100%;
+    margin-top: -23px;
+    background: $secondaryCol;
+}
+
+.header-address-box {
+    background: $primaryCol;
+}
+.address-bar.location {
+    color: $secondaryCol;
+    display: inline-flex;
+}
+
+.dealer-name {
+    @include primaryFontStackLight;
+    @media screen and (min-width: 768px) {
+        float: right;
+        margin: 0;
+    }
+}
+
+.brand-dealer-link {
+    @include primaryFontStackLight;
+    font-size: 20px;
+    letter-spacing: .7px;
+    color: $primaryCol;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    @media screen and (min-width: 768px) {
+        font-size: 34px;
+    }
+}
+
+.brand-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 15px;
+}
+// address bar //
+
+.address-bar-wrapper {
+    @include primaryFontStackLight;
+    font-size: 13px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #000;
+    padding: 4px 0;
+    display: none;
+}
