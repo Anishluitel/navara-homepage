@@ -1,0 +1,24 @@
+@mixin primaryFontStackLight {
+	font-family: "Nissan Light", Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin primaryFontStack {
+	font-family: "Nissan Regular", Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin primaryFontStackBold {
+	font-family: "Nissan Bold", Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin secondaryFontStack {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+}
+
+@mixin secondaryFontStackBold {
+	font-family: Arial, sans-serif;
+	font-weight: bold;
+}

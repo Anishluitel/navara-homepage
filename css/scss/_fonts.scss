@@ -1,0 +1,32 @@
+@font-face {
+	font-family: 'Nissan Light';
+	src: url('font/NissanBrand-Light.eot');
+	src: url('font/NissanBrand-Light.eot?#iefix') format('embedded-opentype'),
+		//url('font/NissanBrand-Light.woff2') format('woff2'),
+		url('font/NissanBrand-Light.woff') format('woff'),
+		url('font/NissanBrand-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nissan Regular';
+    src: url('font/NissanBrand-Regular.eot');
+    src: url('font/NissanBrand-Regular.eot?#iefix') format('embedded-opentype'),
+        // url('font/NissanBrand-Regular.woff2') format('woff2'),
+        url('font/NissanBrand-Regular.woff') format('woff'),
+        url('font/NissanBrand-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nissan Bold';
+    src: url('font/NissanBrand-Bold.eot');
+    src: url('font/NissanBrand-Bold.eot?#iefix') format('embedded-opentype'),
+        // url('font/NissanBrand-Bold.woff2') format('woff2'),
+        url('font/NissanBrand-Bold.woff') format('woff'),
+        url('font/NissanBrand-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
