@@ -1,19 +1,30 @@
+.vehicle-banner-wrapper {
+    position: relative;
+}
+
 .vehicle-banner-wrapper .container {
     @media screen and (min-width: 768px) {
         position: absolute;
         top: 0;
         max-width: 1300px;
         left: 50%;
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
         transform: translateX(-50%);
     }
 }
 
+.vehicle-banner-image {
+    width: 100%;
+}
+
 .banner-text-wrapper {
+    padding: 15px 0;
     @include primaryFontStackLight;
     @media screen and (min-width: 768px) {
-        margin: 200px 20px 20px 20px;
-        width: 460px;
+        margin: 80px 20px 20px 0;
         padding: 0;
+        width: 460px;
     }
 }
 

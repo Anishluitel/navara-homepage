@@ -27,10 +27,6 @@
 .header-address-box {
   background: #000; }
 
-.address-bar.location {
-  color: #fff;
-  display: inline-flex; }
-
 .dealer-name {
   font-family: "Nissan Light", Arial, sans-serif;
   font-weight: normal; }
@@ -65,20 +61,64 @@
   margin-top: 15px; }
 
 .address-bar-wrapper {
-  font-family: "Nissan Light", Arial, sans-serif;
-  font-weight: normal;
   font-size: 13px;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-color: #000;
   padding: 4px 0;
+  display: block; }
+
+.address-bar {
   display: none; }
+  @media screen and (min-width: 768px) {
+    .address-bar {
+      display: block;
+      float: right; } }
+
+.address-bar-dealer-information {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .address-bar-dealer-information {
+      display: block;
+      float: left; } }
+
+.address-bar-text-wrapper span,
+.address-bar-text a {
+  color: #fff;
+  height: 25px;
+  line-height: 25px; }
+
+.address-bar-text {
+  margin-right: 8px; }
+
+.dealer-information {
+  float: left;
+  margin: 0; }
+
+.icon-svg-location, .icon-svg-phone {
+  fill: #c3002f;
+  width: 12px;
+  top: 2px;
+  margin-right: 4px;
+  margin-left: 11px; }
+
+.address-bar-pipe {
+  display: none; }
+
+.social-wrapper {
+  float: left;
+  margin: 0;
+  padding: 0; }
+  .social-wrapper li {
+    list-style: none;
+    float: left; }
 
 .container {
   margin-left: auto;
   margin-right: auto;
   max-width: 1140px;
   width: 100%; }
+
+body {
+  margin: 0; }
 
 img {
   vertical-align: middle;
@@ -253,22 +293,31 @@ img {
     .ffr-text {
       font-size: 18px; } }
 
+.vehicle-banner-wrapper {
+  position: relative; }
+
 @media screen and (min-width: 768px) {
   .vehicle-banner-wrapper .container {
     position: absolute;
     top: 0;
     max-width: 1300px;
     left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
     transform: translateX(-50%); } }
 
+.vehicle-banner-image {
+  width: 100%; }
+
 .banner-text-wrapper {
+  padding: 15px 0;
   font-family: "Nissan Light", Arial, sans-serif;
   font-weight: normal; }
   @media screen and (min-width: 768px) {
     .banner-text-wrapper {
-      margin: 200px 20px 20px 20px;
-      width: 460px;
-      padding: 0; } }
+      margin: 80px 20px 20px 0;
+      padding: 0;
+      width: 460px; } }
 
 .banner-image {
   width: 100%;
