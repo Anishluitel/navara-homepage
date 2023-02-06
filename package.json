@@ -1,0 +1,22 @@
+{
+  "name": "navara-homepage",
+  "version": "1.0.0",
+  "description": "# 4. Created a feature section using tick tock",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass css/scss/production.scss css/production.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anishluitel/navara-homepage.git"
+  },
+  "author": "Anish L",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anishluitel/navara-homepage/issues"
+  },
+  "homepage": "https://github.com/Anishluitel/navara-homepage#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

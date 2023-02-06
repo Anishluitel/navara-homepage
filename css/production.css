@@ -1,0 +1,383 @@
+@font-face {
+  font-family: 'Nissan Light';
+  src: url("font/NissanBrand-Light.eot");
+  src: url("font/NissanBrand-Light.eot?#iefix") format("embedded-opentype"), url("font/NissanBrand-Light.woff") format("woff"), url("font/NissanBrand-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Nissan Regular';
+  src: url("font/NissanBrand-Regular.eot");
+  src: url("font/NissanBrand-Regular.eot?#iefix") format("embedded-opentype"), url("font/NissanBrand-Regular.woff") format("woff"), url("font/NissanBrand-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Nissan Bold';
+  src: url("font/NissanBrand-Bold.eot");
+  src: url("font/NissanBrand-Bold.eot?#iefix") format("embedded-opentype"), url("font/NissanBrand-Bold.woff") format("woff"), url("font/NissanBrand-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal; }
+
+.header-wrapper {
+  width: 100%;
+  margin-top: -23px;
+  background: #fff; }
+
+.header-address-box {
+  background: #000; }
+
+.dealer-name {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .dealer-name {
+      float: right;
+      margin: 0; } }
+
+.brand-dealer-link {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: .7px;
+  color: #000;
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none; }
+  @media screen and (min-width: 768px) {
+    .brand-dealer-link {
+      font-size: 34px; } }
+
+.brand-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 15px; }
+
+.address-bar-wrapper {
+  font-size: 13px;
+  background-color: #000;
+  padding: 4px 0;
+  display: block; }
+
+.address-bar {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .address-bar {
+      display: block;
+      float: right; } }
+
+.address-bar-dealer-information {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .address-bar-dealer-information {
+      display: block;
+      float: left; } }
+
+.address-bar-text-wrapper span,
+.address-bar-text a {
+  color: #fff;
+  height: 25px;
+  line-height: 25px; }
+
+.address-bar-text {
+  margin-right: 8px; }
+
+.dealer-information {
+  float: left;
+  margin: 0; }
+
+.icon-svg-location, .icon-svg-phone {
+  fill: #c3002f;
+  width: 12px;
+  top: 2px;
+  margin-right: 4px;
+  margin-left: 11px; }
+
+.address-bar-pipe {
+  display: none; }
+
+.social-wrapper {
+  float: left;
+  margin: 0;
+  padding: 0; }
+  .social-wrapper li {
+    list-style: none;
+    float: left; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px;
+  width: 100%; }
+
+body {
+  margin: 0; }
+
+img {
+  vertical-align: middle;
+  display: block;
+  height: auto;
+  width: 100%;
+  margin: 0 auto; }
+
+.fs-tt-wrapper {
+  display: block;
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .fs-tt-wrapper {
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      background-color: #fff;
+      flex-direction: row; } }
+
+.fs-tt-wrapper:nth-child(2n-1) .fs-tt-text-wrapper {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .fs-tt-wrapper:nth-child(2n-1) .fs-tt-text-wrapper {
+      -webkit-box-ordinal-group: 2;
+      order: 1; } }
+
+.fs-tt-image-wrapper {
+  background-size: cover;
+  background-position: center center;
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .fs-tt-image-wrapper {
+      width: 53%; } }
+
+.fs-tt-text-wrapper {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .fs-tt-text-wrapper {
+      width: 50%;
+      text-align: left; } }
+
+.feature-section {
+  padding: 40px 0; }
+
+.fs-wrapper {
+  background-color: #ededed;
+  text-align: center; }
+
+.container .fs-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1140px; }
+
+@media screen and (min-width: 768px) {
+  .fs-container {
+    padding: 0 16px; } }
+
+.fs-heading {
+  padding: 5px 0 20px 0;
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .fs-heading {
+      padding: 15px 0 40px 0; } }
+
+.fs-text {
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  margin: 0 0 10.5px;
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .fs-text {
+      max-width: 940px;
+      margin: auto; } }
+
+.pure-button.button-brand.button-test-drive {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  background-color: #c3002f;
+  border: 0;
+  padding: 12px 38px 12px 24px;
+  display: inline-block;
+  line-height: normal;
+  text-align: center; }
+
+.button-test-drive {
+  margin-top: 7px; }
+
+.heading-text-wrapper {
+  text-align: center;
+  margin: 0 auto; }
+  @media screen and (min-width: 768px) {
+    .heading-text-wrapper {
+      width: 51%; } }
+
+.fsh-heading {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+  letter-spacing: .11px; }
+
+.fsh-tagline {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-bottom: 0;
+  -webkit-margin-before: 5px;
+  margin-block-start: 5px;
+  word-wrap: break-word;
+  word-break: break-word;
+  letter-spacing: .11px; }
+  @media screen and (min-width: 768px) {
+    .fsh-tagline {
+      font-size: 28px; } }
+
+.fsh-text {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  padding: 20px 0; }
+
+.four-in-row-wrapper {
+  display: block; }
+  @media screen and (min-width: 568px) {
+    .four-in-row-wrapper {
+      display: flex; } }
+
+@media screen and (min-width: 660px) {
+  .four-in-row-wrapper .ffr-item {
+    width: 24%;
+    margin-right: 10px;
+    margin-bottom: 10px; } }
+
+.ffr-text-wrapper {
+  text-align: center;
+  margin-top: 10px; }
+
+.ffr-text-heading {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  text-transform: uppercase;
+  margin: 10px 0; }
+
+.ffr-text {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  padding-top: 3px;
+  padding-bottom: 18px; }
+  @media screen and (min-width: 660px) {
+    .ffr-text {
+      font-size: 18px; } }
+
+.vehicle-banner-wrapper {
+  position: relative; }
+
+@media screen and (min-width: 768px) {
+  .vehicle-banner-wrapper .container {
+    position: absolute;
+    top: 0;
+    max-width: 1300px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); } }
+
+.vehicle-banner-image {
+  width: 100%; }
+
+.banner-text-wrapper {
+  padding: 15px 0;
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .banner-text-wrapper {
+      margin: 80px 20px 20px 0;
+      padding: 0;
+      width: 460px; } }
+
+.banner-image {
+  width: 100%;
+  position: relative; }
+
+.banner-sub-heading {
+  color: #000;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .banner-sub-heading {
+      font-size: 15px;
+      text-align: left;
+      color: #fff;
+      font-weight: 400px; } }
+
+.banner-heading {
+  color: #000;
+  font-size: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding-top: 5px;
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal; }
+  @media screen and (min-width: 768px) {
+    .banner-heading {
+      font-size: 36px;
+      text-align: left;
+      color: #fff; } }
+
+.nav-primary-wrapper {
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .nav-primary-wrapper {
+      display: block;
+      position: relative;
+      border-top: 1px solid #d9d9d9; } }
+
+.nav-primary-list {
+  font-family: "Nissan Light", Arial, sans-serif;
+  font-weight: normal;
+  font-size: 12px;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  position: relative; }
+
+.nav-primary-link {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  position: relative;
+  display: block;
+  padding: 12px 0;
+  width: auto;
+  text-align: center; }
